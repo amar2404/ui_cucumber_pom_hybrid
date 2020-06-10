@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.659 s <<< FAILURE! - in TestSuite
+feature(driver.runner)  Time elapsed: 54.875 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div/div[1]/div[4]/section[3]/div[3]/div/article[1]/div/a/div[4]/span/div[2]/div[1]"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKMIN4524753', ip: 'fe80:0:0:0:c2d:4ab6:cc1a:8bed%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/fq/hrvpn2ds0c1...}, goog:chromeOptions: {debuggerAddress: localhost:56472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 28f6ac5fadc3d28fda11d1b00489e987
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div/div[1]/div[4]/section[3]/div[3]/div/article[1]/div/a/div[4]/span/div[2]/div[1]}
+	at driver.runner.feature(runner.java:29)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div/div[1]/div[4]/section[3]/div[3]/div/article[1]/div/a/div[4]/span/div[2]/div[1]"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKMIN4524753', ip: 'fe80:0:0:0:c2d:4ab6:cc1a:8bed%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/fq/hrvpn2ds0c1...}, goog:chromeOptions: {debuggerAddress: localhost:56472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 28f6ac5fadc3d28fda11d1b00489e987
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div/div[1]/div[4]/section[3]/div[3]/div/article[1]/div/a/div[4]/span/div[2]/div[1]}
+
